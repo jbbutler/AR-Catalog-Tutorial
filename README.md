@@ -5,5 +5,8 @@ Welcome! This repository contains a Jupyter notebook showcasing the Antarctic at
 ## Contents
 + `agu24_poster.pdf`: the poster in question
 + `catalog_tutorial.ipynb`: the tutorial notebook that interactively walks you through the catalog and shows you what it can be used for!
-+ ``
++ `antarctic_ars.yml`: a file that contains the conda environment necessary to run the tutorial
++ `catalog_display.py`: a python file with functions to display catalog in tutorial
++ `MERRA2_gridarea.nc`: a mapping from pixel to area occupied, used in the tutorial
++ `2022_storm_df.h5`: one year of storms from the event-based catalog
 
