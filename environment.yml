@@ -5,10 +5,12 @@ channels:
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_gnu
+  - blosc=1.21.5=hc2324a3_1
   - bottleneck=1.3.5=py37hda87dfa_0
   - brotli=1.1.0=hb9d3cd8_2
   - brotli-bin=1.1.0=hb9d3cd8_2
   - bzip2=1.0.8=h4bc722e_7
+  - c-ares=1.34.3=hb9d3cd8_1
   - ca-certificates=2024.8.30=hbcca054_0
   - certifi=2024.8.30=pyhd8ed1ab_0
   - cycler=0.11.0=pyhd8ed1ab_0
@@ -21,25 +23,33 @@ dependencies:
   - glib-tools=2.80.2=hb6ce0ca_0
   - gst-plugins-base=1.14.0=hbbd80ab_1
   - gstreamer=1.14.1=h5eee18b_1
+  - hdf5=1.12.2=nompi_h4df4325_101
   - icu=58.2=hf484d3e_1000
   - importlib-metadata=4.11.4=py37h89c1867_0
   - importlib_metadata=4.11.4=hd8ed1ab_0
   - jpeg=9e=h0b41bf4_3
+  - keyutils=1.6.1=h166bdaf_0
   - kiwisolver=1.4.4=py37h7cecad7_0
+  - krb5=1.21.3=h659f571_0
   - lcms2=2.14=h6ed2654_0
   - ld_impl_linux-64=2.43=h712a8e2_2
   - lerc=4.0.0=h27087fc_0
+  - libaec=1.1.3=h59595ed_0
   - libblas=3.9.0=25_linux64_openblas
   - libbrotlicommon=1.1.0=hb9d3cd8_2
   - libbrotlidec=1.1.0=hb9d3cd8_2
   - libbrotlienc=1.1.0=hb9d3cd8_2
   - libcblas=3.9.0=25_linux64_openblas
+  - libcurl=8.8.0=hca28451_1
   - libdeflate=1.14=h166bdaf_0
+  - libedit=3.1.20191231=he28a2e2_2
+  - libev=4.33=hd590300_2
   - libexpat=2.6.4=h5888daf_0
   - libffi=3.4.2=h7f98852_5
   - libgcc=14.2.0=h77fa898_1
   - libgcc-ng=14.2.0=h69a702a_1
   - libgfortran=14.2.0=h69a702a_1
+  - libgfortran-ng=14.2.0=h69a702a_1
   - libgfortran5=14.2.0=hd5240d6_1
   - libglib=2.80.2=hf974151_0
   - libgomp=14.2.0=h77fa898_1
@@ -47,10 +57,12 @@ dependencies:
   - liblapack=3.9.0=25_linux64_openblas
   - liblzma=5.6.3=hb9d3cd8_1
   - liblzma-devel=5.6.3=hb9d3cd8_1
+  - libnghttp2=1.58.0=h47da74e_1
   - libnsl=2.0.1=hd590300_0
   - libopenblas=0.3.28=pthreads_h94d23a6_1
   - libpng=1.6.43=h2797004_0
   - libsqlite=3.46.0=hde9e2c9_0
+  - libssh2=1.11.0=h0841786_0
   - libstdcxx=14.2.0=hc0a3c3a_1
   - libstdcxx-ng=14.2.0=h4852527_1
   - libtiff=4.4.0=h82bc61c_5
@@ -59,6 +71,8 @@ dependencies:
   - libxcb=1.13=h7f98852_1004
   - libxml2=2.9.9=h13577e0_2
   - libzlib=1.2.13=h4ab18f5_6
+  - lz4-c=1.9.4=hcb278e6_0
+  - lzo=2.10=hd590300_1001
   - matplotlib=3.5.3=py37h89c1867_2
   - matplotlib-base=3.5.3=py37hf395dca_2
   - munkres=1.1.4=pyh9f0ad1d_0
@@ -77,6 +91,7 @@ dependencies:
   - pthread-stubs=0.4=hb9d3cd8_1002
   - pyparsing=3.1.4=pyhd8ed1ab_0
   - pyqt=5.6.0=py37h13b7fb3_1008
+  - pytables=3.7.0=py37h7d129aa_2
   - python=3.7.12=hf930737_100_cpython
   - python-dateutil=2.9.0=pyhd8ed1ab_0
   - python_abi=3.7=4_cp37m
@@ -86,6 +101,7 @@ dependencies:
   - setuptools=59.8.0=py37h89c1867_1
   - sip=4.18.1=py37hf484d3e_1000
   - six=1.16.0=pyh6c4a22f_0
+  - snappy=1.2.1=ha2e4443_0
   - sqlite=3.46.0=h6d4b2fc_0
   - tk=8.6.13=noxft_h4845f30_101
   - tornado=6.2=py37h540881e_0
