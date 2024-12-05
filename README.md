@@ -10,3 +10,8 @@ Welcome! This repository contains a Jupyter notebook showcasing the Antarctic at
 + `MERRA2_gridarea.nc`: a mapping from pixel to area occupied, used in the tutorial
 + `2022_storm_df.h5`: one year of storms from the event-based catalog
 
+## Instructions
+
+Feel free to clone the repository, ensuring that all of the above files are in the home folder.
+
+Then, open up the tutorial notebook and have fun! (If needed, you may use the `antarctic_ars` environment from the above .yml file.)
