@@ -2,7 +2,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jbbutler/AR-Catalog-Tutorial/HEAD?labpath=catalog_tutorial.ipynb)
 
-Welcome! This repository contains a Jupyter notebook showcasing the Antarctic atmospheric river catalog from the AGU24 poster "Quantifying the association between Antarctic atmospheric river characteristics and their impacts using extreme-value statistics"([link to abstract.](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1653296)) Feel free to play around and email me if you have any questions at butlerj@berkeley.edu!
+Welcome! This repository contains a Jupyter notebook showcasing the Antarctic atmospheric river catalog from the AGU24 poster "Quantifying the association between Antarctic atmospheric river characteristics and their impacts using extreme-value statistics" ([link to abstract](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1653296).) Feel free to play around and email me if you have any questions at butlerj@berkeley.edu!
 
 ## Contents
 + `Butler_AGU24_poster.pdf`: the poster in question
