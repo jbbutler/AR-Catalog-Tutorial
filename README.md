@@ -14,6 +14,6 @@ Welcome! This repository contains a Jupyter notebook showcasing the Antarctic at
 
 ## Notebook Access
 
-To access the notebook, you can click the above Binder button! This will take you to an interactive, online Jupyter notebook with all packages pre-installed. *Note: it may take a few moments for it to load..*
+To access the notebook, you can click the above 'launch binder' button! This will take you to an interactive, online Jupyter notebook with all packages pre-installed. *Note: it may take a few moments for it to load..*
 
 Furthermore, feel free to clone the repository if you like, ensuring that all of the above files are in the home folder. Then, open up the tutorial notebook and have fun! (If needed, you may use the `antarctic_ars` environment from the above .yml file.)
