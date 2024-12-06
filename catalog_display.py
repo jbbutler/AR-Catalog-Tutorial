@@ -49,6 +49,6 @@ def display_catalog(catalog_df, nrows=None):
         The catalog, but styled so that it can be printed/read in a Jupyter notebook
     '''
     if nrows:
-        return catalog_df.head(nrows).style.format({'data_array': lambda x: construct_thumbnail(x)}).format_index(precision=0)
+        return catalog_df.head(nrows).style.format({'data_array': lambda x: construct_thumbnail(x)})
     else:
-        return catalog_df.style.format({'data_array': construct_thumbnail}).format_index(precision=0)
+        return catalog_df.style.format({'data_array': construct_thumbnail})
