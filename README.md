@@ -16,4 +16,4 @@ Welcome! This repository contains a Jupyter notebook showcasing the Antarctic at
 
 To access the notebook, you can click the above 'launch binder' button! This will take you to an interactive, online Jupyter notebook with all packages pre-installed. *Note: it may take a few moments for it to load..*
 
-Furthermore, feel free to clone the repository if you like, ensuring that all of the above files are in the home folder. Then, open up the tutorial notebook and have fun!
+Furthermore, if you'd like to play around on your own local Jupyter server, feel free to clone the repository if you like, ensuring that all of the above files are in the home folder. Then, make a conda environment out of the provided .yml file by calling `conda env create --name <your env name> --file=environment.yml`, activate it with `conda activate <your env name>`, and then call `python -m ipykernel install --user --name=<your env name>` so that you can see this environment as an available kernel in Jupyter. After this, you should be set!
